@@ -54,9 +54,10 @@ PyDevで参照するPythonインタプリターをAnacondaの物を指定する�
 
 他のエディタの選択肢として，代表的なものを以下に挙げておきます．
 
-* PyScripter
-* PyCharm
-* Ninja
+* [PyCharm](https://www.jetbrains.com/pycharm/)
+    - 有償版はWeb開発周りが充実．
+    -
+* [Ninja IDE](http://www.ninja-ide.org/)
 * Sublime, Atom等 汎用テキストエディタ系
     - 小規模開発であれば，これでも十分に事足ります．普段使っている方であれば，簡単なコード書きには便利です．
 
