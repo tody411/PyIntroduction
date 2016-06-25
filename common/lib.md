@@ -85,7 +85,7 @@ print (" image directory:", image_dir)
 例えば，Pythonスクリプトのファイルが```C:\GitHub\PyIntroduction\common\set_image_dir.py```にある場合，
 出力は以下のようになります．
 
-``` Python
+```
      module file:  C:\GitHub\PyIntroduction\common\set_image_dir.py
 module directory:  C:\GitHub\PyIntroduction\common
  image directory:  C:\GitHub\PyIntroduction\images
