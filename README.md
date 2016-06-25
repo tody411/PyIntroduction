@@ -27,6 +27,7 @@ Pythonの基本構文やライブラリを学習しておくと，独自のス�
 
 * [インストール](install/install.md)
 * [Pythonの基本的な構文](common/intro.md)
+* [Pythonの標準ライブラリの利用](common/lib.md)
 * [MayaのPython](maya/mayapy.md)
 
 注: 不定期更新になると思いますが，なるべく早めに充実させたいと思います．
