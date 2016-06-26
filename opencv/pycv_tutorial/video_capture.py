@@ -29,6 +29,7 @@ def cvCaptureVideo():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
+    capture.release()
     cv2.destroyAllWindows()
 
 
@@ -49,6 +50,7 @@ def pltCaputreVideo():
 
     ret, image_bgr = capture.read()
     if ret == False:
+        capture.release()
         return
 
     fig = plt.figure()
@@ -60,6 +62,7 @@ def pltCaputreVideo():
     ani = animation.FuncAnimation(fig, updateFrame, fargs=(capture, image_plt),
                                    interval=0, blit=True)
     plt.show()
+    capture.release()
 
 if __name__ == "__main__":
     cvCaptureVideo()
