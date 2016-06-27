@@ -56,5 +56,7 @@ C++版のサンプルをPythonに移植してみるというのが理解への�
     - [画像の表示](pycv_tutorial/display_image.md)
     - [Webカメラのキャプチャと表示](pycv_tutorial/video_capture.md)
     - [OpenCVの描画](pycv_tutorial/drawing.md)
+    - [マウスペイント](pycv_tutorial/mouse_painting.md)
+    - [トラックバー](pycv_tutorial/trackbar.md)
 * 画像処理
     - [色空間の変換](pycv_tutorial/color_space.md)
