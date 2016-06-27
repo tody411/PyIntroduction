@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 で行います．
 
-```cv2.VideoCapture(device_id)```のように指定すると，
+デバイスIDを```cv2.VideoCapture(device_id)```のように指定すると，
 PCにつながっているWebカメラからキャプチャできます．
 複数台カメラがつながっている場合，```device_id```の値を変えることで切り替えられます．
 
