@@ -34,10 +34,9 @@ def pltShowImageColor(image_file):
     plt.axis('off')
     plt.show()
 
-# Matplotによるカラー画像表示
+# Matplotによるグレースケール画像表示
 def pltShowImageGray(image_file):
     image_gray = cv2.imread(image_file, 0)
-
     plt.title('image')
     plt.gray()
     plt.imshow(image_gray)
