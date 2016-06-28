@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 ## @package pycv_tutorial.mouse_painting
 #
-#  pycv_tutorial.mouse_painting utility package.
-#  @author      Hideki Todo
+#  入出力とGUI: マウスペイント
+#  @author      tody
 #  @date        2016/06/27
 
 import cv2
@@ -72,7 +72,7 @@ def simplePaint():
     mouse_event = CVMouseEvent(drag_func=brushPaint)
     mouse_event.setCallBack(win_name)
 
-    while(1):
+    while(True):
         cv2.imshow(win_name, img)
 
         key = cv2.waitKey(30) & 0xFF

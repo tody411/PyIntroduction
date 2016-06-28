@@ -176,7 +176,7 @@ def simplePaint():
     mouse_event = CVMouseEvent(drag_func=brushPaint)
     mouse_event.setCallBack(win_name)
 
-    while(1):
+    while(True):
         cv2.imshow(win_name, img)
 
         key = cv2.waitKey(30) & 0xFF
@@ -213,6 +213,6 @@ if __name__ == '__main__':
 | 数字2キー | 描画色を緑にする |
 | 数字3キー  | 描画色を青にする |
 | rキー | リセット |
-| qキー | リセット |
+| qキー | 終了 |
 
 ![マウスペイントのデモ](images/mouse_painting.png)
