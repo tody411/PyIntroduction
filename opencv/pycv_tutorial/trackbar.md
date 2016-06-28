@@ -80,5 +80,33 @@ cv2.Cannyでは，以下のような構文でエッジを抽出します．
             cv2.imshow(win_name, edge)
 ```
 
+上記のような処理で，描画ループの中でトラックバーの値を参照しながら
+CannyEdge抽出を行い，表示を更新することでインタラクティブに結果を確認できます．
+
+| 編集操作  | 説明    |
+|:-----------|:----------------------|
+| トラックバー操作 | CannyEdgeパラメータの更新 |
+| 数字1キー | RGB画像の表示 |
+| 数字2キー | グレースケール画像の表示 |
+| 数字3キー  | CannyEdge抽出結果の表示 |
+| qキー | 終了 |
+
 ![トラックバーのデモ](images/trackbar_demo.png)
 
+GUIと結果表示が別ウィンドウになってしまいますが，
+matplotlibとOpenCVのトラックバーを組み合わせることもできます．
+
+``` Python
+    # Canny Edgeのインタラクティブな描画更新
+    def updateValue(x):
+        edge = cv2.Canny(L, low_threshold_trackbar.value(), upper_threshold_trackbar.value())
+        edge_plt.set_array(edge)
+        fig.canvas.draw_idle()
+
+    low_threshold_trackbar.setCallBack(updateValue)
+    upper_threshold_trackbar.setCallBack(updateValue)
+```
+
+この場合は，matplotlibのfigureの描画更新処理をスライダーのCallbackとして設定します．
+少々無理やり感があるので，matplotlibの場合は，自前のSliderを使うか，
+PyQtを使って自作した方が良いかもしれません．
