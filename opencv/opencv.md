@@ -53,6 +53,7 @@ C++版のサンプルをPythonに移植してみるというのが理解への�
 [```pycv_tutorial```](pycv_tutorial)に各サンプルコードを配置．
 
 * 入出力とGUI
+    - [画像処理用のGUIモジュール](pycv_tutorial/gui_libs.md)
     - [画像の表示](pycv_tutorial/display_image.md)
     - [Webカメラのキャプチャと表示](pycv_tutorial/video_capture.md)
     - [OpenCVの描画](pycv_tutorial/drawing.md)
