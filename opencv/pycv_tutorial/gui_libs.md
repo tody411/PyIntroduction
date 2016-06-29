@@ -186,16 +186,13 @@ parameter.setValue(20)
 ```
 
 まず，```valueChanged = pyqtSignal(object)```で定義されているのが
-PyQtのシグナルです．
-```setValue```関数内で```self.valueChanged.emit(val)```を呼ぶことにより，
+PyQtのシグナルです．```setValue```関数内で```self.valueChanged.emit(val)```を呼ぶことにより，
 パラメータの値が```val```に変更されたということをクラス外部に通知しています．
 
-実際にシグナルを利用する時は，
-```def printParameter(val):```のように，通知された値を受け取る関数を定義します．
+実際にシグナルを利用する時は，```def printParameter(val):```のように，通知された値を受け取る関数を定義します．
 この関数をスロットと呼び，シグナルの```connect```関数を使ってシグナルとスロットを結びつけることができます．
 
-上の例では，まず，Parameterクラスのインスタンスを作り，
-```parameter.valueChanged.connect(printParameter)```を呼び出すことにより，
+上の例では，まず，Parameterクラスのインスタンスを作り，```parameter.valueChanged.connect(printParameter)```を呼び出すことにより，
 パラメータが変更された時に行う処理を```printParameter```として割り当てています．
 
 このプログラムの出力結果は以下のようになります．
