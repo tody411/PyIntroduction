@@ -28,6 +28,7 @@ Pythonの基本構文やライブラリを学習しておくと，独自のス�
 * [インストール](install/install.md)
 * [Pythonの基本的な構文](common/intro.md)
 * [Pythonの標準ライブラリの利用](common/lib.md)
+* [良く使うPythonライブラリ](lib/lib.md)
 * [PythonからのOpenCV利用](opencv/opencv.md)
 * [MayaでのPython開発](maya/mayapy.md)
 
