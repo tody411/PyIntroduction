@@ -30,6 +30,7 @@ Pythonの基本構文やライブラリを学習しておくと，独自のス�
 * [Pythonの標準ライブラリの利用](common/lib.md)
 * [良く使うPythonライブラリ](lib/lib.md)
 * [PythonからのOpenCV利用](opencv/opencv.md)
+* [PyQtによるGUI開発](pyqt/pyqt.md)
 * [MayaでのPython開発](maya/mayapy.md)
 
 注: 不定期更新になると思いますが，なるべく早めに充実させたいと思います．
