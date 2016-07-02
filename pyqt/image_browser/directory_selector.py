@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## @package image_browser.file_selector
+## @package image_browser.directory_selector
 #
 #  ディレクトリ選択GUI
 #  @author      tody

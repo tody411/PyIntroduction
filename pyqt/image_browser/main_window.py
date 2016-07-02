@@ -1,6 +1,6 @@
 
 # -*- coding: utf-8 -*-
-## @package image_browser.image_browser
+## @package image_browser.main_window
 #
 #  イメージブラウザ.
 #  @author      tody
