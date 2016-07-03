@@ -24,6 +24,14 @@ MATLABのような数値計算，プロットをしたい人は，**NumPy**, **S
 
 * [PythonからのOpenCV利用](../opencv/opencv.md)
 
+#### その他の数値計算・画像処理・CG系ライブラリ
+
+* [scikit-learn](http://scikit-learn.org/stable/): 機械学習をお手軽に試せます．
+* [scikit-image](http://scikit-image.org/): SuperPixels等，OpenCVにない関数があったりするのでこちらもたまに使います．
+* [PyAMG](http://pyamg.org/): 代数的マルチグリッド計算による最適化．
+* [FBX Python SDK](http://usa.autodesk.com/adsk/servlet/pc/item?id=24314456&siteID=123112): PythonからFBXを扱えるようにしたもの．
+    - 現状Python 2.7とPython 3.3をサポート(2016/07/03)． Anaconda 3ではPython 3.5なので2系を入れるか3.3用の環境を作る必要がある．
+
 ### CGソフトでも使われるPython
 
 Maya, Houdini, blender, のようなCGソフトウェアでは，
@@ -46,12 +54,6 @@ Pythonが拡張用の言語として用いられることが多いです．
 
 個人的には，**PyQt**しか使ったことが無いですが，スマフォ上でも動作する**kivy**はかなり気になっています．
 本サイトでは，**PyQt**のGUIに関して個別に解説ページを作成する予定です．
-
-#### その他の数値計算・画像処理ライブラリ
-
-* [scikit-learn](http://scikit-learn.org/stable/): 機械学習をお手軽に試せます．
-* [scikit-image](http://scikit-image.org/): SuperPixels等，OpenCVにない関数があったりするのでこちらもたまに使います．
-* [PyAMG](): 代数的マルチグリッド計算による最適化．
 
 ### Web周りの処理
 
@@ -121,4 +123,6 @@ soup.find_all('td')
 ```
 
 上手く，絡めればHTMLから様々な情報を得ることができます．
-(使用用途は要件等ですが．．．)
+使用用途は要検討ですが，
+例えば自分のサイトやブログをどこかに移行する時，
+データ変換を行う際に非常に便利です．
