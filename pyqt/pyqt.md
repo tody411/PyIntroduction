@@ -20,5 +20,6 @@ Python2.7を使用しています．
 
 ## チュートリアル
 
+* [PyQtのHello World](hello_world_qt.md)
 * [シグナルとスロット](signal_slot.md)
 * [イメージブラウザの作成](image_browser.md)

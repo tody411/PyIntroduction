@@ -66,4 +66,4 @@ def pltCaputreVideo():
 
 if __name__ == "__main__":
     cvCaptureVideo()
-    pltCaputreVideo()
+    # pltCaputreVideo()
