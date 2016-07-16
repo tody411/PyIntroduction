@@ -23,3 +23,4 @@ Python2.7を使用しています．
 * [PyQtのHello World](hello_world_qt.md)
 * [シグナルとスロット](signal_slot.md)
 * [イメージブラウザの作成](image_browser.md)
+* [メディアプレーヤーの作成](media_player.md)
