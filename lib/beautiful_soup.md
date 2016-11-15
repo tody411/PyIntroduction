@@ -1,5 +1,5 @@
 
-Beautiful Soup: HTML構文を解析できるライブラリ
+Beautiful Soup: 簡単なHTML構文解析
 ====
 
 Beautiful SoupはHTML構文を解析するのにかなり強力なライブラリです．
